@@ -14,14 +14,20 @@ function App() {
   };
 
   return (
-    <div>
-      <input
-        type='file'
-        accept='.pdf'
-        onChange={(e) => setFile(e.target.files[0])}
-      />
-      <button onClick={handleUpload}>Upload</button>
-      <ul>
+    <div className='container'>
+      <div className='upload-box'>
+        <h2>Upload Your File</h2>
+
+        <input
+          type='file'
+          accept='.pdf'
+          onChange={(e) => setFile(e.target.files[0])}
+        />
+
+        <button onClick={handleUpload}>Upload</button>
+      </div>
+
+      <ul className='chunks-list'>
         {chunks.map((chunk, i) => (
           <li key={i}>{chunk}</li>
         ))}

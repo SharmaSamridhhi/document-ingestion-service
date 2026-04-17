@@ -22,8 +22,8 @@
 /ai-service/*.pyo
 /ai-service/*.pyd
 /ai-service/.env
+/ai-service/uploads/
 .DS_Store
 *.DS_Store
 .DS_Store?
 ._*
-
