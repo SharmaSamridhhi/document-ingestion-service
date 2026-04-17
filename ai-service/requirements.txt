@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pymupdf
+langchain
+langchain-text-splitters
+sqlalchemy
+alembic
+psycopg2-binary
+python-dotenv
