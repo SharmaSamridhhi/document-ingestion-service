@@ -1,7 +1,8 @@
 # Document Ingestion Service
 
 A production-grade document processing pipeline that accepts PDF uploads, extracts and chunks text intelligently, persists structured data to PostgreSQL, and exposes the processed output via a REST API.
-![alt text](image.png)
+
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/478d56eb-c20c-451f-88f2-da9d951d295f" />
 
 ---
 
